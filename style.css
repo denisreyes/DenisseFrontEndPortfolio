@@ -1,8 +1,16 @@
 *{
     font-family: "Montserrat", sans-serif;
 }
+
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 612px;
+}
+
 .leftside{
-    width: 300px;
+    width: 250px;
 }
 
 .triangle{
@@ -15,10 +23,10 @@
 
 .name{
     text-align: center;
+    margin-left: -75px;
     position: absolute;
     width: 80px;
     height: 0;
-    left: 30px;
     font-weight: lighter;
     z-index: 2;
 }
@@ -63,3 +71,45 @@
     width: 215px;
     height: 800px;
 }
+
+.titles{
+    font-size: large;
+    font-weight: 500;
+    margin: 15px;
+    border-bottom: 1px solid #608abf;
+    padding-bottom: 10px;
+}
+
+.expcontent, .projectcontent, .educationcontent{
+    border-left: 1px solid #608abf;
+    padding-left: 15px;
+}
+
+.fa-circle{
+    margin-left: -23px;
+    font-size: medium;
+}
+
+.enterprise{
+    font-size: small;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.date{
+    float: right;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.jobcontent, .projectdescription, .schooldescription{
+    font-size: smaller;
+    font-style: italic;
+}
+
+.description{
+    font-size: smaller;
+    font-style: italic;
+}
+
+
